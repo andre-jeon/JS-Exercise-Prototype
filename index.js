@@ -146,10 +146,10 @@ console.log(babyOne.play('trains'));
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. Window Binding
-  2. Implicit Binding
-  3. Explicit Binding
-  4. New Binding
+  1. if there is nothing to the left of the dot or any of dot properties are used, JS will default to a window object. 
+  2. in implicit binding whatever is to the left of the dot becomes the context for this in the function. 
+  3. explicit binding of this occurs when .call(), .apply(), or .bind() are used on a function 
+  4. new binding creates a brand new object and saves as this
 */
 
 
